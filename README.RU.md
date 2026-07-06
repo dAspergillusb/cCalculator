@@ -3,7 +3,7 @@
   <a href="README.RU.md">🇷🇺 Русский</a>
 </p>
 
-# cCalcuator
+# cCalculator
 
 ## Название проекта
 Программа называется cCalculator
