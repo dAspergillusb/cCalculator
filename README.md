@@ -25,7 +25,25 @@ Currently, it features a classic calculator, a numeral system converter (up to b
 
 ## Installation
 The program requires Python version 3.12 or higher. To run correctly, the following additional libraries are required: `dearpygui`, `sympy`, `requests`.
-There is also a standalone binary file for Linux systems (located in the `standalone` folder of this project) which does not require installation.
+
+## How to start the cCalculator?
+Open the Terminal and go to the folder where will be the program.
+In the terminal you need to execute the next commands:
+```Bash
+git clone https://github.com/dAspergillusb/cCalculator/
+```
+```Bash
+python -m venv .venv
+```
+```Bash
+source .venv/bin/activate
+```
+```Bash
+pip install -r requirements.txt
+```
+```Bash
+python main.py
+```
 
 ## License
 GPL v3
