@@ -24,7 +24,25 @@
 
 ## Установка
 Программа запускается с помощью Python версии 3.12 и выше. Для корректной работы необходимы дополнительные библиотеки: dearpy, sympy, requests.
-Также есть бинарный файл для linux-систем (в папке standalone настоященго проекта), который не нуждается в установке.
+
+## Как запустить cCalculator?
+Откройте терминал (командную строку) и перейдите в папку, где находится программа. В терминале вам необходимо выполнить следующие команды:
+```Bash
+git clone https://github.com/dAspergillusb/cCalculator/
+```
+```Bash
+python -m venv .venv
+```
+```Bash
+source .venv/bin/activate
+```
+```Bash
+pip install -r requirements.txt
+```
+```Bash
+python main.py
+```
+
 
 ## Лицензия
 GPL v3
